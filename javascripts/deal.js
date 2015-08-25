@@ -14,13 +14,13 @@ define(function(require) {
  		if ( i % 2 === 0) {
  			p1Hand.push(card);
  		} else {
- 				p2Hand.push(card);
+ 			p2Hand.push(card);
  		}
  	}
  	//console.log(p1Hand);
  	//console.log(p2Hand);
  	send.toFB(p1Hand, p2Hand);
  }
-}
+};
 
 });

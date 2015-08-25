@@ -18,9 +18,18 @@ requirejs.config({
 
 
 requirejs(
-  ["dependencies", "deck", "shuffle", "deal"],
-  function(dependencies, deck, shuffle, deal) {
+  ["dependencies", "deck", "send", "flip", "show"],
+  function(dependencies, deck, send, flip, show) {
 
     deck.allCards();
+
+    show.player1();
+    show.player2();
+
+    // console.log(p1Flip);
+    // console.log(p2Flip);
+
+    // show.player1(p1Flip);
+    // show.player2(p2Flip);
 
 });

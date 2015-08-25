@@ -7,7 +7,7 @@ define(function(require) {
  		$.ajax({
  			url: "http://deckofcardsapi.com/api/deck/" + deckID + "/draw/?count=104"
  		}).done(function(data) {
- 			console.log(data);
+ 			//console.log(data);
  			deal.hands(data);
  		});
  	}
