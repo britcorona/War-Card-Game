@@ -21,7 +21,7 @@ The http-server module is just a very basic project that will serve static files
 
 ##### Serve the application
 
-Next, you go to the War-Card-Game application root folder and start the server.
+Next, go to the War-Card-Game application root folder and start the server.
 
 *http-server*
 
@@ -35,4 +35,4 @@ Go to the lib folder and *bower install*
 
 Still in the lib folder *npm install*
 
-Now that everything is installed, make sure **Grunt** is running in the *lib folder* and the **http-server** is running in the applications *root folder*, and then its war!
+Now that everything is installed, make sure **Grunt** is running in the *lib folder* and the **http-server** is running in the applications *root folder*, and then it's time for war!
